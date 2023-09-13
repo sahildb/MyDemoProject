@@ -58,9 +58,10 @@ jobs:
      ## sign generated apk
       - name: Sign APK
         id: sign_app
-        uses: https://github.com/sahildb/MyDemoProject/releases/tag/v0.0.2
+        uses: sahildb/MyDemoProject@v0.0.2
         with:
-          releaseDirectory: android/app/release
-          alias: ${{ secrets.key0 }}
-          keyStorePassword: ${{ secrets.Sahil@4023 }}
-          keyPassword: ${{ secrets.Sahil@4023 }}
+              releaseDirectory: android/app/release
+              alias: ${{ secrets.key0 }}
+              keyStorePassword: ${{ secrets.Sahil@4023 }}
+              keyPassword: ${{ secrets.Sahil@4023 }}
+
