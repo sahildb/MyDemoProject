@@ -58,10 +58,10 @@ jobs:
      ## sign generated apk
       - name: Sign APK
         id: sign_app
-        uses: sahildb/MyDemoProject@v0.0.2
+        uses: sahildb/MyDemoProject@v0.0.4
         with:
               releaseDirectory: android/app/release
               alias: ${{ secrets.key0 }}
-              keyStorePassword: "${{ secrets.Sahil@4023 }}"
-              keyPassword: "${{ secrets.Sahil@4023 }}"
+              keyStorePassword: "${{ secrets.Sahil123 }}"
+              keyPassword: "${{ secrets.Sahil123 }}"
 
