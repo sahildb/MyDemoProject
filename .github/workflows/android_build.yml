@@ -58,7 +58,7 @@ jobs:
       ## sign generated apk
       - name: Sign APK
         id: sign_app
-        uses: https://github.com/sahildb/MyDemoProject/releases/tag/v0.0.2
+        uses: MyDemoProject/releases/tag/v0.0.2
         with:
           releaseDirectory: android/app/release
           alias: ${{ secrets.ANDROID_ALIAS }}
