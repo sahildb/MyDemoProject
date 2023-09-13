@@ -62,6 +62,6 @@ jobs:
         with:
               releaseDirectory: android/app/release
               alias: ${{ secrets.key0 }}
-              keyStorePassword: ${{ secrets.Sahil@4023 }}
-              keyPassword: ${{ secrets.Sahil@4023 }}
+              keyStorePassword: "${{ secrets.Sahil@4023 }}"
+              keyPassword: "${{ secrets.Sahil@4023 }}"
 
