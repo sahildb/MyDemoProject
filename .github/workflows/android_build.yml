@@ -58,7 +58,7 @@ jobs:
      ## sign generated apk
       - name: Sign APK
         id: sign_app
-        uses: sahildb/MyDemoProject@v0.0.4
+        uses: r0adkll/sign-android-release@v1
         with:
               releaseDirectory: android/app/release
               alias: ${{ secrets.key0 }}
