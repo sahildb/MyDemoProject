@@ -60,6 +60,7 @@ jobs:
         id: sign_app
         with:
           releaseDirectory: android/app/release
+          uses: https://github.com/sahildb/MyDemoProject/releases/tag/v0.0.2
           alias: ${{ secrets.key0 }}
           keyStorePassword: ${{ secrets.Sahil@4023 }}
           keyPassword: ${{ secrets.Sahil@4023 }}
